@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "atlanweaponry:item/guardian_battle_axe2d"
+  }
+}

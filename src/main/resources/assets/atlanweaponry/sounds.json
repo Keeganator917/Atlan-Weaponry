@@ -1,0 +1,6 @@
+{
+  "shell_stun": {
+    "subtitle": "sound.atlanweaponry.shell_stun",
+    "sounds": ["atlanweaponry:shell_stun"]
+  }
+}

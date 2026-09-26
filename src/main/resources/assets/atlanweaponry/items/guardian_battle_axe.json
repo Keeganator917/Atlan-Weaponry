@@ -1,0 +1,22 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:model",
+          "model": "atlanweaponry:item/guardian_battle_axe2d"
+        },
+        "when": [
+          "gui",
+          "fixed"
+        ]
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "atlanweaponry:item/guardian_battle_axe"
+    },
+    "property": "minecraft:display_context"
+  }
+}

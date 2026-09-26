@@ -1,0 +1,90 @@
+{
+  "parent": "minecraft:adventure/guardian_rod",
+  "criteria": {
+    "has_guardian_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:guardian_rod"
+          }
+        ]
+      }
+    },
+    "has_coral_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:coral_staff"
+          }
+        ]
+      }
+    },
+    "has_guardian_staff": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:guardian_staff"
+          }
+        ]
+      }
+    },
+    "has_guardian_battle_axe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:guardian_battle_axe"
+          }
+        ]
+      }
+    },
+    "has_neptunes_offering": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:neptunes_offering"
+          }
+        ]
+      }
+    },
+    "has_shell_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:shell_hammer"
+          }
+        ]
+      }
+    },
+    "has_hellfork": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:hellfork"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "atlanweaponry:guardian_battle_axe"
+    },
+    "title": {
+      "translate": "advancements.atlanweaponry.master_of_the_tide.title"
+    },
+    "description": {
+      "translate": "advancements.atlanweaponry.master_of_the_tide.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}

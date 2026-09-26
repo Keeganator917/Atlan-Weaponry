@@ -1,0 +1,30 @@
+{
+  "anvil_cost": 16,
+  "description": {
+    "translate": "enchantment.atlanweaponry.torrent"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "atlanweaponry:torrent"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#atlanweaponry:exclusive_set/guardian_battle_axe_incompatible_enchants",
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#atlanweaponry:guardian_battle_axe",
+  "weight": 1
+}

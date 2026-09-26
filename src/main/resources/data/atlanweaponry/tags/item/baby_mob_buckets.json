@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "atlanweaponry:baby_clam_bucket",
+    "atlanweaponry:baby_squid_bucket",
+    "atlanweaponry:baby_glow_squid_bucket",
+    "atlanweaponry:baby_turtle_bucket",
+    "atlanweaponry:baby_nautilus_bucket"
+  ]
+}

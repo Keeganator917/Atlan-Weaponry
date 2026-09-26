@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "atlanweaponry:hellfork_scrap",
+  "base": "minecraft:trident",
+  "result": {
+    "id": "atlanweaponry:hellfork"
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}
