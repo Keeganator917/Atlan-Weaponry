@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:adventure/guardian_rod",
+  "criteria": {
+    "thrown_into_water": {
+      "trigger": "atlanweaponry:thrown_into_water",
+      "conditions": {
+        "item": {
+          "items": "atlanweaponry:neptunes_offering"
+        }
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "atlanweaponry:neptunes_offering"
+    },
+    "title": {
+      "translate": "advancements.atlanweaponry.bring_the_thunder.title"
+    },
+    "description": {
+      "translate": "advancements.atlanweaponry.bring_the_thunder.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SPS",
+    "S/S",
+    " / "
+  ],
+  "key": {
+    "P": "atlanweaponry:pearl",
+    "S": "minecraft:nautilus_shell",
+    "/": "minecraft:stick"
+  },
+  "result": {
+    "id": "atlanweaponry:shell_hammer"
+  }
+}

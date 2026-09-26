@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "atlanweaponry:block/crystallized_tube_coral"
+  }
+}

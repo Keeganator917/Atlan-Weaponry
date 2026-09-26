@@ -1,0 +1,31 @@
+{
+  "anvil_cost": 12,
+  "description": {
+    "translate": "enchantment.atlanweaponry.fiery_lanterns"
+  },
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "atlanweaponry:fiery_lanterns"
+        }
+      }
+    ]
+  },
+  "exclusive_set": "#atlanweaponry:exclusive_set/tidebreaker_incompatible_enchants",
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 8
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 8
+  },
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "supported_items": "#atlanweaponry:guardian_staff",
+  "weight": 2
+}

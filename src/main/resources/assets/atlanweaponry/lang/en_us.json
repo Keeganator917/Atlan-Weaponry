@@ -1,0 +1,57 @@
+{
+  "item.atlanweaponry.guardian_rod": "Guardian Rod",
+  "item.atlanweaponry.coral_staff": "Coral Staff",
+  "item.atlanweaponry.guardian_staff": "Tidebreaker Staff",
+  "item.atlanweaponry.guardian_battle_axe": "Guardian Battle Axe",
+  "item.atlanweaponry.neptunes_offering": "Neptune's Offering",
+  "item.atlanweaponry.pearl": "Pearl",
+  "item.atlanweaponry.clam_spawn_egg": "Clam Spawn Egg",
+  "item.atlanweaponry.shell_hammer": "Shell Hammer",
+  "item.atlanweaponry.hellfork": "Hellfork",
+  "item.atlanweaponry.hellfork_scrap": "Hellfork Scrap",
+
+  "item.atlanweaponry.baby_clam_bucket": "Baby Clam Bucket",
+  "item.atlanweaponry.baby_squid_bucket": "Baby Squid Bucket",
+  "item.atlanweaponry.baby_glow_squid_bucket": "Baby Glow Squid Bucket",
+  "item.atlanweaponry.baby_nautilus_bucket": "Baby Nautilus Bucket",
+  "item.atlanweaponry.baby_turtle_bucket": "Baby Turtle Bucket",
+
+  "block.atlanweaponry.crystallized_brain_coral": "Crystallized Brain Coral Block",
+  "block.atlanweaponry.crystallized_bubble_coral": "Crystallized Bubble Coral Block",
+  "block.atlanweaponry.crystallized_fire_coral": "Crystallized Fire Coral Block",
+  "block.atlanweaponry.crystallized_tube_coral": "Crystallized Tube Coral Block",
+  "block.atlanweaponry.crystallized_horn_coral": "Crystallized Horn Coral Block",
+
+  "entity.atlanweaponry.bubble_magic" : "Bubble Magic",
+  "entity.atlanweaponry.sea_lantern_projectile" : "Sea Lantern Projectile",
+  "entity.atlanweaponry.sea_lantern_shard_projectile" : "Sea Lantern Shard Projectile",
+  "entity.atlanweaponry.clam" : "Clam",
+
+  "effect.atlanweaponry.poseidons_blessing": "Poseidon's Blessing",
+  "effect.atlanweaponry.stunned": "Stunned",
+
+  "death.attack.bubble_magic": "%1$s was slain by %2$s using water magic",
+  "death.attack.bubble_magic.player": "%1$s was slain by %2$s using water magic whilst trying to escape %3$s",
+  "death.attack.bubble_magic.item": "%1$s was slain by %2$s using %3$s",
+  "death.attack.sea_lantern": "%1$s was crushed by by %2$s using a tidebreaker staff",
+  "death.attack.sea_lantern.player": "%1$s was crushed by %2$s using a tidebreaker staff whilst trying to escape %3$s",
+  "death.attack.sea_lantern.item": "%1$s was crushed by %2$s using %3$s",
+  "death.attack.sea_lantern_shard": "%1$s was sliced by by %2$s using a tidebreaker staff",
+  "death.attack.sea_lantern_shard.player": "%1$s was sliced by %2$s using a tidebreaker staff whilst trying to escape %3$s",
+  "death.attack.sea_lantern_shard.item": "%1$s was sliced by %2$s using %3$s",
+
+  "enchantment.atlanweaponry.shattering": "Shattering",
+  "enchantment.atlanweaponry.fiery_lanterns": "Fiery Lanterns",
+  "enchantment.atlanweaponry.whirlpool": "Whirlpool",
+  "enchantment.atlanweaponry.torrent": "Torrent",
+
+  "screen.atlanweaponry.torrent": "Torrent",
+  "sound.atlanweaponry.shell_stun": "Shell Stun",
+
+  "advancements.atlanweaponry.guardian_rod.title": "Guardian Rod",
+  "advancements.atlanweaponry.guardian_rod.desc": "Obtain a Guardian Rod",
+  "advancements.atlanweaponry.bring_the_thunder.title": "Bring The Thunder",
+  "advancements.atlanweaponry.bring_the_thunder.desc": "Throw a Neptune's Offering into water",
+  "advancements.atlanweaponry.master_of_the_tide.title": "Master Of The Tide",
+  "advancements.atlanweaponry.master_of_the_tide.desc": "Collect Every Atlan Weapon"
+}
