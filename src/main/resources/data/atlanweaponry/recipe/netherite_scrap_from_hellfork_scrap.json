@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "experience": 0.50,
+  "ingredient": "atlanweaponry:hellfork_scrap",
+  "result": {
+    "id": "minecraft:netherite_scrap"
+  }
+}

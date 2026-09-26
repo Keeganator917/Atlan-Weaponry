@@ -1,0 +1,30 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "picked_up_rod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "atlanweaponry:guardian_rod"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "atlanweaponry:guardian_rod"
+    },
+    "title": {
+      "translate": "advancements.atlanweaponry.guardian_rod.title"
+    },
+    "description": {
+      "translate": "advancements.atlanweaponry.guardian_rod.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  }
+}

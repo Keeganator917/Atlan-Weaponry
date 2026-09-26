@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " B ",
+    "/H/",
+    " B "
+  ],
+  "key": {
+    "B": "minecraft:blaze_powder",
+    "H": "minecraft:heart_of_the_sea",
+    "/": "atlanweaponry:guardian_rod"
+  },
+  "result": {
+    "id": "atlanweaponry:neptunes_offering"
+  }
+}

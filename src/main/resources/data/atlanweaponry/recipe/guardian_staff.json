@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#S#",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "#": "minecraft:prismarine_shard",
+    "S": "minecraft:sea_lantern",
+    "/": "atlanweaponry:guardian_rod"
+  },
+  "result": {
+    "id": "atlanweaponry:guardian_staff"
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "atlanweaponry",
+	"version": "${version}",
+	"name": "Atlan Weaponry",
+	"description": "Expands the potential of the ocean, allow you to harness it to your advantage.",
+	"authors": [
+		"Keeganator917"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/atlanweaponry/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"keeganator.atlanweaponry.AtlanWeaponry"
+		],
+		"client": [
+			"keeganator.atlanweaponry.AtlanWeaponryClient"
+		]
+	},
+	"mixins": [
+		"atlanweaponry.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

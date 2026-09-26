@@ -1,0 +1,30 @@
+{
+	"required": true,
+	"package": "keeganator.atlanweaponry.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"EnchantmentHelperMixin",
+		"ExampleMixin",
+		"ItemEntityMixin",
+		"LivingEntityMixin",
+		"PotionEntityMixin",
+		"ThrownEntityMixin",
+		"TridentEntityMixin",
+		"bucketablemob.BucketableMixin",
+		"bucketablemob.EntityBucketItemMixin",
+		"bucketablemob.MobEntityMixin",
+		"bucketablemob.NautilusEntityMixin",
+		"bucketablemob.SquidEntityMixin",
+		"bucketablemob.TurtleEntityMixin"
+	],
+	"client": [
+		"SpecialModelTypesMixin",
+		"TridentRiptideFeatureRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

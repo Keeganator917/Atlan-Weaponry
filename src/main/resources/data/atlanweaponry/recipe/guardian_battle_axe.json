@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "#D#",
+    "#/#",
+    " / "
+  ],
+  "key": {
+    "#": "minecraft:prismarine_shard",
+    "D": "minecraft:dark_prismarine",
+    "/": "atlanweaponry:guardian_rod"
+  },
+  "result": {
+    "id": "atlanweaponry:guardian_battle_axe"
+  }
+}
