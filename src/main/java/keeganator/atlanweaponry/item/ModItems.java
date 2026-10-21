@@ -20,12 +20,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlotGroup;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.MobBucketItem;
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.SpawnEggItem;
-import net.minecraft.world.item.ToolMaterial;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.ItemAttributeModifiers;
 import net.minecraft.world.item.component.Weapon;
 import net.minecraft.world.level.material.Fluids;
@@ -102,31 +97,39 @@ public class ModItems {
         AtlanWeaponry.LOGGER.info("Registering Mod Items for " + AtlanWeaponry.MOD_ID);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(entries -> {
-            entries.accept(ModItems.CORAL_STAFF);
-            entries.accept(ModItems.GUARDIAN_STAFF);
-            entries.accept(ModItems.GUARDIAN_BATTLE_AXE);
-            entries.accept(ModItems.NEPTUNES_OFFERING);
-            entries.accept(ModItems.SHELL_HAMMER);
-            entries.accept(ModItems.HELLFORK);
+            entries.insertAfter(Items.TRIDENT, ModItems.HELLFORK);
+            entries.insertAfter(Items.TOTEM_OF_UNDYING, ModItems.NEPTUNES_OFFERING);
 
+            entries.insertAfter(Items.MACE,
+                    ModItems.GUARDIAN_BATTLE_AXE,
+                    ModItems.SHELL_HAMMER);
+
+            entries.insertAfter(Items.CROSSBOW,
+                    ModItems.CORAL_STAFF,
+                    ModItems.GUARDIAN_STAFF);
         });
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS).register(entries -> {
-            entries.accept(ModItems.GUARDIAN_ROD);
-            entries.accept(ModItems.PEARL);
-            entries.accept(ModItems.HELLFORK_SCRAP);
+            entries.insertAfter(Items.HEART_OF_THE_SEA,
+                    ModItems.GUARDIAN_ROD,
+                    ModItems.PEARL);
+
+            entries.insertAfter(Items.FIRE_CHARGE,
+                    ModItems.HELLFORK_SCRAP);
         });
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.SPAWN_EGGS).register(entries -> {
-            entries.accept(ModItems.CLAM_SPAWN_EGG);
+            entries.insertAfter(Items.TROPICAL_FISH_SPAWN_EGG,
+                    ModItems.CLAM_SPAWN_EGG);
         });
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(entries -> {
-            entries.accept(ModItems.BABY_CLAM_BUCKET);
-            entries.accept(ModItems.BABY_SQUID_BUCKET);
-            entries.accept(ModItems.BABY_GLOW_SQUID_BUCKET);
-            entries.accept(ModItems.BABY_TURTLE_BUCKET);
-            entries.accept(ModItems.BABY_NAUTILUS_BUCKET);
+            entries.insertAfter(Items.AXOLOTL_BUCKET,
+                    ModItems.BABY_SQUID_BUCKET,
+                    ModItems.BABY_GLOW_SQUID_BUCKET,
+                    ModItems.BABY_TURTLE_BUCKET,
+                    ModItems.BABY_NAUTILUS_BUCKET,
+                    ModItems.BABY_CLAM_BUCKET);
         });
     }
 }
