@@ -1,6 +1,6 @@
 {
   "type": "minecraft:smelting",
-  "category": "blocks",
+  "category": "misc",
   "experience": 0.50,
   "ingredient": "atlanweaponry:hellfork_scrap",
   "result": {

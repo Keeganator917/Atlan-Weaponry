@@ -23,6 +23,7 @@ import net.fabricmc.fabric.api.event.player.AttackEntityCallback;
 import net.fabricmc.fabric.api.event.player.UseBlockCallback;
 import net.fabricmc.fabric.api.loot.v3.LootTableEvents;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
+import net.fabricmc.fabric.api.registry.CompostableRegistry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;
 import net.minecraft.network.chat.Component;
@@ -95,6 +96,8 @@ public class AtlanWeaponry implements ModInitializer {
 				BiomeSelectors.includeByKey(Biomes.WARM_OCEAN, Biomes.DEEP_LUKEWARM_OCEAN),
 				MobCategory.WATER_AMBIENT, ModEntities.CLAM, 80, 1, 2
 		);
+
+		CompostableRegistry.INSTANCE.add(ModItems.PEARL, 1.0f);
 
 		UseBlockCallback.EVENT.register((player, world, hand, hitResult) -> {
 			if (world.isClientSide()) return InteractionResult.PASS;
