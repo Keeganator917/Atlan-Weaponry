@@ -10,6 +10,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -51,11 +52,12 @@ public class ModBlocks {
         register("crystallized_fire_coral", CRYSTALLIZED_FIRE_CORAL);
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.BUILDING_BLOCKS).register(entries ->{
-        entries.accept(CRYSTALLIZED_TUBE_CORAL);
-        entries.accept(CRYSTALLIZED_BRAIN_CORAL);
-        entries.accept(CRYSTALLIZED_BUBBLE_CORAL);
-        entries.accept(CRYSTALLIZED_FIRE_CORAL);
-        entries.accept(CRYSTALLIZED_HORN_CORAL);
+            entries.insertAfter(Items.DARK_PRISMARINE_SLAB,
+                    CRYSTALLIZED_TUBE_CORAL,
+                    CRYSTALLIZED_BRAIN_CORAL,
+                    CRYSTALLIZED_BUBBLE_CORAL,
+                    CRYSTALLIZED_FIRE_CORAL,
+                    CRYSTALLIZED_HORN_CORAL);
         });
     }
 
