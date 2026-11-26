@@ -89,7 +89,7 @@ public class AtlanWeaponry implements ModInitializer {
 
 		BiomeModifications.addSpawn(
 				BiomeSelectors.includeByKey(Biomes.WARM_OCEAN, Biomes.DEEP_LUKEWARM_OCEAN),
-				MobCategory.WATER_AMBIENT, ModEntities.CLAM, 80, 1, 2
+				MobCategory.WATER_AMBIENT, ModEntities.CLAM, 120, 1, 2
 		);
 
 		CompostableRegistry.INSTANCE.add(ModItems.PEARL, 1.0f);
